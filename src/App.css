@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Background */
+body {
+  background: linear-gradient(to bottom, #e0eaff, #f8f4ff);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Warna teks navbar */
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #444 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #5a5a8e !important;
+} /* <- Ini yang sebelumnya hilang, sekarang sudah ditutup */
+
+/* Hero Section */
+#hero-section {
+  background: linear-gradient(to right, #e0eaff, #f3eaff);
+  padding: 80px 0;
+  text-align: center;
+}
+
+#hero-section h1 {
+  color: #5a5a8e;
+  font-weight: 600;
+}
+
+#hero-section p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* Button Soft */
+.btn-soft {
+  background-color: #b3c7ff;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.btn-soft:hover {
+  background-color: #8fa7ff;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  color: #5a5a8e;
+}
+
+/* Footer */
+.footer {
+  background: #f3eaff;
+  color: #5a5a8e;
+}
+
+.footer a {
+  color: #8fa7ff;
+}
+
+.footer a:hover {
+  color: #5a5a8e;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+}
